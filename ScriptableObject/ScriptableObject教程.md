@@ -13,6 +13,7 @@
 
 ### 1.1 概念介绍
 ScriptableObject 是 Unity 提供的一个特殊类，用于创建**可序列化的数据容器**。它独立于场景和 GameObject 存在，可以在项目中作为资产文件保存。
+ItemData类是一个“模板”或“蓝图”，而你需要在Unity编辑器中为游戏里每一种不同的物品，创建一个具体的“实例”。
 
 ### 1.2 为什么使用 ScriptableObject？
 
